@@ -1,4 +1,4 @@
-[![Build status](https://github.com/tramhao/termusic/actions/workflows/build.yml/badge.svg)](https://github.com/tramhao/termusic/actions)
+':q[![Build status](https://github.com/tramhao/termusic/actions/workflows/build.yml/badge.svg)](https://github.com/tramhao/termusic/actions)
 [![crates.io](https://img.shields.io/crates/v/termusic.svg)](https://crates.io/crates/termusic)
 [![dependency status](https://deps.rs/repo/github/tramhao/termusic/status.svg)](https://deps.rs/repo/github/tramhao/termusic)
 [![MSRV](https://img.shields.io/badge/MSRV-1.77.0-blue)](https://blog.rust-lang.org/2023/12/28/Rust-1.77.0.html)
@@ -154,7 +154,7 @@ Finally, you can run it with:
 ~/.local/share/cargo/bin/termusic
 ```
 
-You can copy it anywhere in your `$PATH`. The configuration file is located in `~/.config/termusic/config.toml` (or on macOS, `~/Library/Application Support/termusic/config.toml`).
+You can copy it anywhere in your `$PATH`. The configuration file for the TUI is located in `~/.config/termusic/tui.toml`, and the configuration file for the server is located in `~/.config/termusic/server.toml` (or on macOS, `~/Library/Application Support/termusic/tui.toml`, `~/Library/Application Support/termusic/server.toml`, respectively). <!---The MacOS, i assume it has the same rules as linux, so its a good idea to check, as i lack and macOS machine.-->
 However, as this is a minimalistic program, you don't need to edit the configuration file and almost everything can be set from the app.
 
 ## TODO
